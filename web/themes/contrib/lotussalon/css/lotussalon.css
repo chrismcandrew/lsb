@@ -1,0 +1,39 @@
+html{
+  background: #2A2730;
+}
+body{
+  background: #F4F5F6;
+}
+#fallback-page-menu {
+  /*background: black;*/
+}
+#fallback-page-menu a:link, a:visited {
+  /*color: white;*/
+  text-decoration: none;
+}
+#fallback-page-menu li{
+  display: inline;
+  list-style-type: none;
+  padding-right: 20px;
+}
+.navbar-dark{
+  background: #ddd;
+}
+.site-footer{
+  background: #2A2730;
+  margin-top: 2em;
+}
+
+
+/*@media all and (min-width: 768px) {
+  label {  
+    display: none;
+  }
+  .nav.navbar-nav {
+      display: block;
+      float: right;
+  }
+  .nav.navbar-nav li{
+      float: left;
+  }
+}*/
