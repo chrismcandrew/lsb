@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "581711d7a9894a472ff17c7bc733701e",
-    "content-hash": "2547d8be71fa8a16dcc8cc6fa165e963",
+    "hash": "968f41cbbb7d052183aba0b6ea309c97",
+    "content-hash": "2ca53cfdfab80dcd1161cc0ba7e68ae9",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1264,50 +1264,6 @@
             "time": "2016-04-03 18:17:59"
         },
         {
-            "name": "drupal/mollom",
-            "version": "8.1.1",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupal.org/project/mollom",
-                "reference": "3b5577be29c58c374a1ef592e75ff580200d4a00"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/mollom-8.x-1.1.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "drupal/core": "8.*",
-                "mollom/client": "dev-psr4",
-                "php": ">=5.3.0"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "branch-alias": {
-                    "dev-8.x-1.x": "8.1.x-dev"
-                }
-            },
-            "notification-url": "https://packagist.drupal-composer.org/downloads/",
-            "license": [
-                "GPLv2"
-            ],
-            "authors": [
-                {
-                    "name": "See contributors",
-                    "homepage": "https://drupal.org/project/mollom"
-                }
-            ],
-            "description": "Automatically moderates user-submitted content and protects your site from spam and profanity.",
-            "homepage": "https://drupal.org/project/mollom",
-            "keywords": [
-                "acquia",
-                "mollom",
-                "spam"
-            ],
-            "time": "2015-11-24 18:21:23"
-        },
-        {
             "name": "drupal/pathauto",
             "version": "8.1.0-alpha3",
             "source": {
@@ -1402,38 +1358,6 @@
             "description": "Provides a user interface for the Token API and some missing core tokens.",
             "homepage": "https://www.drupal.org/project/token",
             "time": "2016-01-21 08:02:24"
-        },
-        {
-            "name": "drupal/xmlsitemap",
-            "version": "dev-8.x-1.x",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupal.org/project/xmlsitemap",
-                "reference": "6c41bc3a5cdfc39c5eecd26bea597c9694c28733"
-            },
-            "require": {
-                "drupal/core": "8.*"
-            },
-            "replace": {
-                "drupal/xmlsitemap_custom": "self.version",
-                "drupal/xmlsitemap_engines": "self.version"
-            },
-            "suggest": {
-                "drupal/core": "Required by drupal/xmlsitemap_custom, drupal/xmlsitemap_engines"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "branch-alias": {
-                    "dev-8.x-1.x": "8.1.x-dev"
-                }
-            },
-            "notification-url": "https://packagist.drupal-composer.org/downloads/",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "description": "Creates an XML sitemap conforming to the <a href=\"http://sitemaps.org/\">sitemaps.org protocol</a>.",
-            "homepage": "https://www.drupal.org/project/xmlsitemap",
-            "time": "2016-02-02 19:26:54"
         },
         {
             "name": "drush/drush",
@@ -2113,50 +2037,6 @@
                 "xml"
             ],
             "time": "2016-04-11 13:54:57"
-        },
-        {
-            "name": "mollom/client",
-            "version": "dev-psr4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Mollom/MollomPHP.git",
-                "reference": "bfb97d639d8b0a757c47742af5cfc59dd8363e44"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Mollom/MollomPHP/zipball/bfb97d639d8b0a757c47742af5cfc59dd8363e44",
-                "reference": "bfb97d639d8b0a757c47742af5cfc59dd8363e44",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "5.0.*"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Mollom\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "See contributors",
-                    "homepage": "https://github.com/mollom/MollomPHP/graphs/contributors"
-                }
-            ],
-            "description": "Generic PHP library for Mollom's REST API.",
-            "keywords": [
-                "acquia",
-                "mollom",
-                "spam"
-            ],
-            "time": "2015-12-03 21:18:35"
         },
         {
             "name": "nikic/php-parser",
