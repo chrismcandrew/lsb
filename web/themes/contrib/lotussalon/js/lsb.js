@@ -10,7 +10,7 @@
 		$("#block-lotussalon-mainnavigation ul").addClass('nav navbar-nav');
 		$("button.link").removeClass('btn-primary').addClass('label label-default');
 		$("#fallback-page-menu").css("display","none");
-		// $(".navbar-nav li").addClass('nav-item nav-link');
+		$(".navbar-nav li").addClass('nav-link');
 
 	});
 })(jQuery);

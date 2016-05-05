@@ -48,11 +48,11 @@
 <header class="pos-f-t">
 
       <div class="collapse" id="navbar-header">
-        <div class="container-fluid bg-inverse p-a-1">
+        <div class="container-fluid p-a-1">
          {{ page.primary_menu }}
         </div>
       </div>
-      <div class="navbar navbar-dark bg-faded navbar-fixed-top">
+      <div class="navbar bg-dark navbar-fixed-top">
        {{ page.header }}
        <div id="fallback-page-menu" class="pull-xs-right">
         {{ page.primary_menu }}
@@ -63,23 +63,17 @@
       </div>
     </header>
 
-{% if breadcrumb %}
-  <nav role="navigation" aria-labelledby="breadcrumb">
-    <h2 class="visually-hidden">{{ 'Breadcrumb'|t }}</h2>
-    <ol>
-    {% for item in breadcrumb %}
-      <li>
-        {% if item.url %}
-          <a href="{{ item.url }}">{{ item.text }}</a>
-        {% else %}
-          {{ item.text }}
-        {% endif %}
-      </li>
-    {% endfor %}
-    </ol>
-  </nav>
-{% endif %}
+ {{ page.secondary_menu }}
   
+ {# Jumbotron #}
+      {% if page.jumbotron %}
+        {% block jumbotron %}
+          <div class="jumbotron">
+            {{ page.jumbotron }}
+          </div>
+        {% endblock %}
+      {% endif %}
+
 {# Main #}
 {% block main %}
   <div role="main" class="main-container container">

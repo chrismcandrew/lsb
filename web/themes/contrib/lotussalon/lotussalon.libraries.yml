@@ -70,6 +70,7 @@ global-styling:
     js/ie-emulation-modes-warning.js: {}
     js/tether.min.js: {}
     js/bootstrap.min.js: {}
+    js/svgxuse.js: {}
     js/lsb.js: {}
   
   dependencies:
@@ -91,5 +92,5 @@ maintenance_page:
     theme:
       css/maintenance-page.css: {}
   dependencies:
-    - system/maintenance
+    # - system/maintenance
     - lotussalon/global-styling
