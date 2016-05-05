@@ -42,19 +42,31 @@ header{
   margin-top: 2em;
   padding-top: 2rem;
 }
+
+ul.socialmedialinks{
+text-align: center;
+padding: 0;
+margin: 0;
+}
+ul.socialmedialinks li{
+display: inline-block;
+}
  p.credits, .credits a{
   
   font-size: .5rem;
 }
 .icon {
     display: inline-block;
-    width: 1em;
-    height: 1em;
-    fill: currentColor;
+    width: 32px;
+    height: 32px;
+   /* fill: currentColor;*/
+    fill: #fff;
 }
 ul.address{
-  /*border-top: 1px solid #ccc;*/
-  
+  border-top: 1px solid #ccc;
+  text-align: center;
+  margin: 2rem 0;
+  padding-top: 2rem;
 }
 ul.address li{
   display: inline-block;

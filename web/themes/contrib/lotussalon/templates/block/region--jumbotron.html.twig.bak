@@ -16,13 +16,12 @@
 #}
 {%
   set classes = [
-    'jumbotron'
+    'region',
+    'region-' ~ region|clean_class
   ]
 %}
 {% if content %}
-  <div{{ attributes.addClass(classes) }}>
-  	<div class="container">
+  <section{{ attributes.addClass(classes) }}>
     {{ content }}
-     </div>
-  </div>
+  </section>
 {% endif %}
