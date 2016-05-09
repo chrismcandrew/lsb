@@ -14,6 +14,10 @@
 #}
 {{ title_prefix }}
 {% if title %}
-  <h1{{ title_attributes }}>{{ title }}</h1>
+<div class="blog-header">
+<div class="container">
+  <h1 class="blog-title" {{ title_attributes }}>{{ title }}</h1>
+  </div>
+  </div>
 {% endif %}
 {{ title_suffix }}
