@@ -2,6 +2,7 @@ global-styling:
   version: VERSION
   css:
     base:
+      css/reset.css: {}
       css/bootstrap/bootstrap.min.css: {}
       css/bootstrap/blog.css: {}
     
@@ -67,8 +68,9 @@ global-styling:
   js:
     js/ie10-viewport-bug-workaround.js: {}
     js/ie-emulation-modes-warning.js: {}
-    # js/tether.min.js: {}
-    # js/bootstrap.min.js: {}
+    js/tether.min.js: {}
+    js/bootstrap.min.js: {}
+    js/button.js: {}
     js/lsb.js: {}
   
   dependencies:

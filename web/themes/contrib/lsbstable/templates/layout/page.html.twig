@@ -45,13 +45,39 @@
 #}
 
 
-  <header class="blog-masthead" role="banner">
-    <div class="container">
+<header class="blog-masthead" role="banner">
+  <div class="container">
+    {{ page.header }}
     {{ page.primary_menu }}
-    </div>
-  </header>
+  </div>
+</header>
 
- {{ page.content }}
+
+<div class="container">
+  <div class="row">
+
+   <div class="col-sm-8 blog-main">
+      {{ page.content }}
+    </div> <!-- /.blog-main -->
+
+    {% if page.sidebar_second %}
+      <div class="col-sm-3 col-sm-offset-1 blog-sidebar" role="complementary">
+        <div class="sidebar-module sidebar-module-inset">
+        {{ page.sidebar_second }}
+        </div>
+      </div><!-- /.blog-sidebar -->
+    {% endif %}
+
+  </div><!-- /.row -->
+</div><!-- /.container -->
+
+{% if page.footer %}
+<footer class="blog-footer" role="contentinfo">
+  <div class="container">
+    {{ page.footer }}
+  </div>
+</footer>
+{% endif %}
 
 
 

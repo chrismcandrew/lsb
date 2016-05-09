@@ -1106,15 +1106,15 @@
         },
         {
             "name": "drupal/ctools",
-            "version": "8.3.0-alpha25",
+            "version": "8.3.0-alpha26",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/ctools",
-                "reference": "3c65d78a2ac14dbd0c54fea979a41ee9575aa188"
+                "reference": "c14a5eee970c3d0aab02e88f6c6a4d18091439b8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/ctools-8.x-3.0-alpha25.zip",
+                "url": "https://ftp.drupal.org/files/projects/ctools-8.x-3.0-alpha26.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -1142,7 +1142,7 @@
             ],
             "description": "Provides a number of utility and helper APIs for Drupal developers and site builders.",
             "homepage": "https://www.drupal.org/project/ctools",
-            "time": "2016-04-01 20:16:42"
+            "time": "2016-05-06 18:51:13"
         },
         {
             "name": "drupal/devel",
@@ -1361,16 +1361,16 @@
         },
         {
             "name": "drush/drush",
-            "version": "8.1.0",
+            "version": "8.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drush-ops/drush.git",
-                "reference": "d06e80cc2b0427322b292aed9d440eb19b50ea92"
+                "reference": "85b58140d576cfdb9546a23c3ff44b72d0dae5bc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drush-ops/drush/zipball/d06e80cc2b0427322b292aed9d440eb19b50ea92",
-                "reference": "d06e80cc2b0427322b292aed9d440eb19b50ea92",
+                "url": "https://api.github.com/repos/drush-ops/drush/zipball/85b58140d576cfdb9546a23c3ff44b72d0dae5bc",
+                "reference": "85b58140d576cfdb9546a23c3ff44b72d0dae5bc",
                 "shasum": ""
             },
             "require": {
@@ -1456,7 +1456,7 @@
             ],
             "description": "Drush is a command line shell and scripting interface for Drupal, a veritable Swiss Army knife designed to make life easier for those of us who spend some of our working hours hacking away at the command prompt.",
             "homepage": "http://www.drush.org",
-            "time": "2016-04-24 14:39:44"
+            "time": "2016-05-05 12:21:03"
         },
         {
             "name": "easyrdf/easyrdf",

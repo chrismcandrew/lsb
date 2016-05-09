@@ -1,0 +1,33 @@
+html, body{
+  background-color: #f7f5f5;
+}
+
+a{
+  color: #919191;
+}
+.blog-masthead{
+  background-color: #ddd;
+}
+
+ul.address li{
+  display: inline;
+}
+
+ul.socialmedialinks li{
+  display: inline-block;
+}
+.icon{
+  height: 2rem;
+  width: 2rem;
+  fill:#919191;
+}
+.icon a{
+  display: inline-block;
+  float: left;
+}
+
+.credits{
+  font-size: .75rem;
+  font-family: 'helvetica neue', helvetica, arial, sans-serif;
+  color: #e3e2e2;
+}
