@@ -1,0 +1,42 @@
+lsbstable.mobileportrait:
+  label: mobileportrait
+  mediaQuery: ''
+  weight: 1
+  multipliers:
+    - 1x
+lsbstable.480px:
+  label: 480px
+  mediaQuery: '(min-width: 480px)'
+  weight: 2
+  multipliers:
+    - 1x
+lsbstable.544px:
+  label: 544px
+  mediaQuery: '(min-width: 544px)'
+  weight: 3
+  multipliers:
+    - 1x
+lsbstable.672px:
+  label: 672px
+  mediaQuery: '(min-width: 672px)'
+  weight: 4
+  multipliers:
+    - 1x
+lsbstable.768px:
+  label: 768px
+  mediaQuery: '(min-width: 768px)'
+  weight: 5
+  multipliers:
+    - 1x
+lsbstable.992px:
+  label: 992px
+  mediaQuery: '(min-width: 992px)'
+  weight: 6
+  multipliers:
+    - 1x
+lsbstable.1200px:
+  label: 1200px
+  mediaQuery: '(min-width: 1200px)'
+  weight: 7 
+  multipliers:
+  - 1x

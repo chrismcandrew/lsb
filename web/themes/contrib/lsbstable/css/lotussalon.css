@@ -1,21 +1,54 @@
 html, body{
-  background-color: #f7f5f5;
+  background-color: #fff;
+  color: #555;
 }
 
 a{
   color: #919191;
 }
+img{
+  border-radius: 3px;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+}
 .blog-masthead{
   background-color: #ddd;
 }
-
-ul.address li{
-  display: inline;
+#block-lsbstable-branding{
+  padding:.25rem .5rem;
 }
 
-ul.socialmedialinks li{
+.blog-main, .blog-sidebar{
+  margin-bottom: 2rem;
+}
+
+.btn{
+  margin:.25rem 0;
+}
+
+nav#block-lsbstable-footer a{
   display: inline-block;
+  width: 100%;
+  padding:.25rem .5rem;
+
 }
+ul.weekly-hours{
+    font-size: .75rem;
+  /*font-family: 'helvetica neue', helvetica, arial, sans-serif;*/
+}
+/*ul.address li{
+  display: inline;
+  
+}*/
+/*ul.address li:after{
+  content: ' |';
+}*/
+
+/*ul.socialmedialinks li{
+  display: inline-block;
+}*/
 .icon{
   height: 2rem;
   width: 2rem;
@@ -26,8 +59,53 @@ ul.socialmedialinks li{
   float: left;
 }
 
+.blog-footer ul{
+  text-align: center;
+  display: inline-block;
+/*  overflow: hidden;
+margin:0 auto;*/
+
+ /* font-size: .75rem;*/
+  /*font-family: 'helvetica neue', helvetica, arial, sans-serif;*/
+ 
+}
+.blog-footer li{
+  display: inline-block;
+  
+}
 .credits{
   font-size: .75rem;
   font-family: 'helvetica neue', helvetica, arial, sans-serif;
   color: #e3e2e2;
+}
+@media (min-width: 480px) {
+  body{
+    background-color: pink;
+  }
+}
+
+@media (min-width: 544px) {
+  body{
+    background-color: red;
+  }
+}
+@media (min-width: 672px) {
+  body{
+    background-color: orange;
+  }
+}
+@media (min-width: 768px) {
+  body{
+    background-color: yellow;
+  }
+}
+@media (min-width: 992px) {
+  body{
+    background-color: green;
+  }
+}
+@media (min-width: 1200px) {
+  body{
+    background-color: blue;
+  }
 }

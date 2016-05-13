@@ -70,7 +70,6 @@ global-styling:
     js/ie-emulation-modes-warning.js: {}
     js/tether.min.js: {}
     js/bootstrap.min.js: {}
-    js/button.js: {}
     js/lsb.js: {}
   
   dependencies:

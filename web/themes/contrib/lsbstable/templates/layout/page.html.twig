@@ -43,8 +43,6 @@
  * @see html.html.twig
  */
 #}
-
-
 <header class="blog-masthead" role="banner">
   <div class="container">
     {{ page.header }}
@@ -52,13 +50,31 @@
   </div>
 </header>
 
-
 <div class="container">
   <div class="row">
 
-   <div class="col-sm-8 blog-main">
+  
+
+
+
+  {{ page.secondary_menu }}
+
+  {{ page.breadcrumb }}
+
+  {{ page.highlighted }}
+
+  {{ page.help }}
+
+ <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
+    
+       
+
+  
+
+<div class="col-sm-8 blog-main">
+  
       {{ page.content }}
-    </div> <!-- /.blog-main -->
+</div>
 
     {% if page.sidebar_second %}
       <div class="col-sm-3 col-sm-offset-1 blog-sidebar" role="complementary">

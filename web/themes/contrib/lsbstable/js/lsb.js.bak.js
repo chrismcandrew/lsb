@@ -6,6 +6,7 @@
 $(document).ready(function(){
 // 'use strict';
 
+
 	//$("#block-lotussalon-mainnavigation").addClass('navbar-fixed-top');
 	$(".form-text, .form-textarea, .form-search, .form-email, select").addClass('form-control');
 	// $(".form-submit").addClass('btn btn-default');
@@ -17,17 +18,3 @@ $(document).ready(function(){
 	//$("#block-lsbstable-breadcrumbs nav ol").addClass('breadcrumb');
 });
 })(jQuery);
-
-
-
-// (function ($) {  
-
-//   Drupal.behaviors.lotussalon = {
-
-//     attach: function (context, settings) {            
-
-
-
-//   }};
-
-// })(jQuery);
