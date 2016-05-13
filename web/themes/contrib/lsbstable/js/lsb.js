@@ -14,7 +14,7 @@ $(document).ready(function(){
 	$(".button").addClass('btn btn-primary');
 	// $("#fallback-page-menu").css("display","none");
 	$("#block-lsbstable-mainnavigation li").addClass('nav-link');
-	//$("#block-lsbstable-breadcrumbs nav ol").addClass('breadcrumb');
+	$("ul.price-list span").addClass('strong');
 });
 })(jQuery);
 

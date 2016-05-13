@@ -1,11 +1,34 @@
 html, body{
   background-color: #fff;
-  color: #555;
+  color: #333;
 }
 
-a{
+/*a, a:visited{
   color: #919191;
 }
+a:hover, a:focus{
+  color: #6c8fa0;
+}*/
+/*header{
+  min-height: 50px;
+}*/
+#block-lsbstable-branding{
+  text-align: center;
+  border-bottom: 1px solid #e6e5e5;
+  padding-top: .5rem;
+}
+/*.nav, #block-lsbstable-branding{
+   display: inline-block;  
+}*/
+
+
+
+.nav a{
+  color: #fff;
+  text-shadow: 0px 0px 1px #ccc;
+  font-family: 'helvetica neue', helvetica, arial, sans-serif;
+}
+
 img{
   border-radius: 4px;
   width: auto;
@@ -18,9 +41,35 @@ img{
 .blog-masthead{
   background-color: #ddd;
 }
-.nav{
-  text-align: center;
+
+.blog-title{
+  display: none;
+  visibility: hidden;
 }
+
+.card{
+  /*padding:.25rem .5rem;*/
+  margin-bottom: 0rem;
+
+}
+#edit-preview{
+  display: none;
+  visibility: hidden;
+}
+
+.btn{
+  margin:1rem;
+}
+strong, .strong{
+  font-weight: 700;
+}
+/*.btn-primary {
+    color: #fff;
+    background-color: transparent;
+    border-color: #919191;
+    border-width: 2px;
+}*/
+
 /*nav ul{
   overflow: hidden;
   line-height: inherit;
@@ -33,9 +82,7 @@ img{
   display: inline-block;
   background-color: #ccc;
 }*/
-#block-lsbstable-branding {
-  text-align: center;
-}
+
 
 #block-lsbstable-branding img{
   box-shadow: none;
@@ -46,9 +93,7 @@ img{
   margin-bottom: 2rem;
 }
 
-.btn{
-  margin:.25rem 0;
-}
+
 
 nav#block-lsbstable-footer a{
   display: inline-block;
@@ -100,34 +145,167 @@ margin:0 auto;*/
   font-family: 'helvetica neue', helvetica, arial, sans-serif;
   color: #e3e2e2;
 }
-/*@media (min-width: 480px) {
-  body{
+@media (min-width: 480px) {
+  /*body{
     background-color: pink;
-  }
+  }*/
 }
 
 @media (min-width: 544px) {
-  body{
+  /*body{
     background-color: red;
-  }
+  }*/
 }
 @media (min-width: 672px) {
-  body{
+  /*body{
     background-color: orange;
-  }
+  }*/
 }
 @media (min-width: 768px) {
-  body{
+
+  /*body{
     background-color: yellow;
+  }*/
+  /*#block-lsbstable-branding {
+    text-align: left;
   }
+  #block-lsbstable-branding img{
+    width: 200%;
+  }
+  .nav{
+   position: relative;
+   text-align: right;
+   margin-top: -50px;
+  }
+  .nav a{
+    font-size: 1.25rem;
+  }*/
 }
 @media (min-width: 992px) {
-  body{
+  /*body{
     background-color: green;
-  }
+  }*/
 }
 @media (min-width: 1200px) {
-  body{
+  /*body{
     background-color: blue;
+  }*/
+}
+
+@media print {
+  *,
+  *::before,
+  *::after {
+    text-shadow: none !important;
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+    float: none !important;
+    color: #000 !important;
+    background: none !important;
+    font-size: 1rem !important;
+    background-color: none !important;
+    border-color: #000 !important;
+    margin:0 !important;
+    display: inline-block !important;
   }
-}*/
+
+/*  body,
+  input,
+  textarea,
+  select {
+    color: #000;
+    background: none;
+  }*/
+  a,
+  a:visited {
+    text-decoration: underline;
+    color: #000;
+  }
+  abbr[title]::after {
+    content: " (" attr(title) ")";
+  }
+  pre,
+  blockquote {
+    border: 1px solid #999;
+
+    page-break-inside: avoid;
+  }
+  thead {
+    display: table-header-group;
+  }
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+  img {
+    max-width: 100% !important;
+  }
+  ul{
+    /*margin-left: 2rem;*/
+    padding-left: 2rem;
+    /*margin-left: 2rem;*/
+  }
+  ul li{
+
+    display: list-item;
+    list-style-type: disc;
+  }
+  #block-lsbstable-branding{
+    border-bottom: none;
+  }
+ .blog-title{
+    display: inline-block;
+    visibility: visible;
+    font-size: 1rem;
+
+  }
+  .blog-post-title{
+    font-size: 1.5em;
+  }
+  .blog-footer{
+    border-top: none;
+    margin:0;
+  }
+  h1, .h1,
+  h2, .h2,
+  h3, .h3,
+  h4, .h4,
+  h5, .h5,
+  h6, .h6 {
+    font-weight: 700;
+  }
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+    font-size: 1.25rem;
+
+  }
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+  .nav.blog-nav, footer nav ul, ul.socialmedialinks {
+    display: none;
+    visibility: hidden;
+  }
+  .btn > .caret,
+  .dropup > .btn > .caret {
+    border-top-color: #000 !important;
+  }
+  .label {
+    border: 1px solid #000;
+  }
+  .table {
+    border-collapse: collapse !important;
+  }
+  .table td,
+  .table th {
+    background-color: #fff !important;
+  }
+  .table-bordered th,
+  .table-bordered td {
+    border: 1px solid #ddd !important;
+  }
+}

@@ -32,11 +32,11 @@
       {% if messages|length > 1 %}
         <ul>
           {% for message in messages %}
-            <li class="alert alert-success">{{ message }}</li>
+            <li class="card">{{ message }}</li>
           {% endfor %}
         </ul>
       {% else %}
-        <p class="alert alert-success">{{ messages|first }}</p>
+        <p class="card">{{ messages|first }}</p>
       {% endif %}
     {% if type == 'error' %}
       </div>

@@ -20,7 +20,7 @@ h4, .h4,
 h5, .h5,
 h6, .h6 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: normal;
+  font-weight: 500;
   color: #333;
 }
 
