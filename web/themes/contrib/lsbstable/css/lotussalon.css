@@ -82,7 +82,13 @@ strong, .strong{
   display: inline-block;
   background-color: #ccc;
 }*/
-
+label {
+    display: inline-block;
+    margin-bottom: 0;
+}
+.form-control{
+  margin-bottom:.5rem;
+}
 
 #block-lsbstable-branding img{
   box-shadow: none;

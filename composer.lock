@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "968f41cbbb7d052183aba0b6ea309c97",
-    "content-hash": "2ca53cfdfab80dcd1161cc0ba7e68ae9",
+    "hash": "3218b98979d4b4b5743ca6267668359b",
+    "content-hash": "1285bf0a0c50967baab5d830e505ee5c",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1188,41 +1188,16 @@
             "time": "2016-05-10 19:17:16"
         },
         {
-            "name": "drupal/git_deploy",
-            "version": "dev-8.x-2.x",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupal.org/project/git_deploy",
-                "reference": "e3b9663cc0a31080586b5dcb75b6fa005eb67463"
-            },
-            "require": {
-                "drupal/core": "8.*"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "branch-alias": {
-                    "dev-8.x-2.x": "8.2.x-dev"
-                }
-            },
-            "notification-url": "https://packagist.drupal-composer.org/downloads/",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "description": "Helps sites that are deployed directly from a Git repositories.",
-            "homepage": "https://www.drupal.org/project/git_deploy",
-            "time": "2016-04-07 03:45:12"
-        },
-        {
             "name": "drupal/metatag",
-            "version": "8.1.0-beta7",
+            "version": "8.1.0-beta8",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/metatag",
-                "reference": "c12149e7ea0444bed959018384d48d1f79d42af3"
+                "reference": "6a1b892f9b1f1a3b027dbddca81676e0d69a6ef3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/metatag-8.x-1.0-beta7.zip",
+                "url": "https://ftp.drupal.org/files/projects/metatag-8.x-1.0-beta8.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -1232,11 +1207,13 @@
                 "drupal/token": "8.*"
             },
             "replace": {
+                "drupal/metatag_google_plus": "self.version",
                 "drupal/metatag_open_graph": "self.version",
-                "drupal/metatag_twitter_cards": "self.version"
+                "drupal/metatag_twitter_cards": "self.version",
+                "drupal/metatag_verification": "self.version"
             },
             "suggest": {
-                "drupal/core": "Required by drupal/metatag_open_graph, drupal/metatag_twitter_cards"
+                "drupal/core": "Required by drupal/metatag_google_plus, drupal/metatag_open_graph, drupal/metatag_twitter_cards, drupal/metatag_verification"
             },
             "type": "drupal-module",
             "extra": {
@@ -1261,7 +1238,51 @@
                 "php",
                 "seo"
             ],
-            "time": "2016-04-03 18:17:59"
+            "time": "2016-05-14 11:04:56"
+        },
+        {
+            "name": "drupal/mollom",
+            "version": "8.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/mollom",
+                "reference": "3b5577be29c58c374a1ef592e75ff580200d4a00"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/mollom-8.x-1.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "drupal/core": "8.*",
+                "mollom/client": "dev-psr4",
+                "php": ">=5.3.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-8.x-1.x": "8.1.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.drupal-composer.org/downloads/",
+            "license": [
+                "GPLv2"
+            ],
+            "authors": [
+                {
+                    "name": "See contributors",
+                    "homepage": "https://drupal.org/project/mollom"
+                }
+            ],
+            "description": "Automatically moderates user-submitted content and protects your site from spam and profanity.",
+            "homepage": "https://drupal.org/project/mollom",
+            "keywords": [
+                "acquia",
+                "mollom",
+                "spam"
+            ],
+            "time": "2015-11-24 18:21:23"
         },
         {
             "name": "drupal/pathauto",
@@ -2037,6 +2058,50 @@
                 "xml"
             ],
             "time": "2016-04-11 13:54:57"
+        },
+        {
+            "name": "mollom/client",
+            "version": "dev-psr4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Mollom/MollomPHP.git",
+                "reference": "bfb97d639d8b0a757c47742af5cfc59dd8363e44"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Mollom/MollomPHP/zipball/bfb97d639d8b0a757c47742af5cfc59dd8363e44",
+                "reference": "bfb97d639d8b0a757c47742af5cfc59dd8363e44",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "5.0.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Mollom\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "See contributors",
+                    "homepage": "https://github.com/mollom/MollomPHP/graphs/contributors"
+                }
+            ],
+            "description": "Generic PHP library for Mollom's REST API.",
+            "keywords": [
+                "acquia",
+                "mollom",
+                "spam"
+            ],
+            "time": "2015-12-03 21:18:35"
         },
         {
             "name": "nikic/php-parser",
