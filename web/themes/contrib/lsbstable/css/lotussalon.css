@@ -108,6 +108,7 @@ label {
 
 
 
+
 nav#block-lsbstable-footer a{
   display: inline-block;
   width: 100%;
@@ -158,6 +159,11 @@ margin:0 auto;*/
   font-family: 'helvetica neue', helvetica, arial, sans-serif;
   color: #e3e2e2;
 }
+
+.price-list li:nth-child(odd) { background-color:#fafafa; }
+.price-list li:nth-child(even) { background-color:#fcfcfc; }
+
+
 @media (min-width: 480px) {
   /*body{
     background-color: pink;
