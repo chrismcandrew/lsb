@@ -12,6 +12,7 @@ a:hover, a:focus{
 /*header{
   min-height: 50px;
 }*/
+
 #block-lsbstable-branding{
   text-align: center;
   border-bottom: 1px solid #e6e5e5;
@@ -38,6 +39,9 @@ img{
   box-shadow: 0 0 5px #ccc;
   border: 5px solid #fff;
 }
+/*.blog-main ul{
+  padding-left: 1rem;
+}*/
 .blog-masthead{
   background-color: #ddd;
 }
@@ -62,6 +66,9 @@ img{
 }
 strong, .strong{
   font-weight: 700;
+}
+.price{
+  float: right;
 }
 /*.btn-primary {
     color: #fff;
