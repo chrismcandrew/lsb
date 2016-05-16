@@ -1,40 +1,29 @@
 html{
   background-color: #f9f9f9;
 }
+
 body{
-  background-color: #fff;
+  background-color: #f9f9f9;
   color: #333;
 }
 
+blockquote{
+  font-style: italic;
+  border-left: 5px solid #242424;
+  margin-left: 3rem;
+  padding-left: 1rem;
+}
 
 p{
-  margin: 1rem 0;
+  /*margin: 1rem 0;*/
+  text-shadow: 0 0 1px #ccc;
+
 }
-/*a, a:visited{
-  color: #919191;
-}
-a:hover, a:focus{
-  color: #6c8fa0;
-}*/
-/*header{
-  min-height: 50px;
-}*/
 
-#block-lsbstable-branding{
-  text-align: center;
-  border-bottom: 1px solid #e6e5e5;
-  padding-top: .5rem;
-}
-/*.nav, #block-lsbstable-branding{
-   display: inline-block;  
-}*/
-
-
-
-.nav a{
-  color: #fff;
-  text-shadow: 0px 0px 1px #ccc;
-  font-family: 'helvetica neue', helvetica, arial, sans-serif;
+iframe{
+  width: auto;
+  max-width: 100%;
+  margin:1rem 0;
 }
 
 img{
@@ -46,37 +35,56 @@ img{
   box-shadow: 0 0 5px #ccc;
   border: 5px solid #fff;
 }
-/*.blog-main ul{
-  padding-left: 1rem;
-}*/
-.blog-masthead{
-  background-color: #ddd;
+
+label {
+    display: inline-block;
+    margin-bottom: 0;
 }
 
-.blog-title{
-  display: none;
-  visibility: hidden;
-}
-
-.card{
-  /*padding:.25rem .5rem;*/
-  margin-bottom: 0rem;
-
-}
-#edit-preview{
-  display: none;
-  visibility: hidden;
-}
-
-.btn{
-  margin:1rem;
-}
 strong, .strong{
   font-weight: 700;
 }
-.price{
-  float: right;
+
+a, a:visited{
+  color: #7ca3b6;
 }
+
+a:hover, a:focus{
+  color: #97c7de;
+}
+/*header{
+  min-height: 50px;
+}*/
+
+
+/*.nav, #block-lsbstable-branding{
+   display: inline-block;  
+}*/
+
+/* 
+***********************
+ Primary Navigation
+***********************
+*/
+
+.nav a{
+  color: #fff;
+  text-shadow: 0px 0px 1px #ccc;
+  font-family: 'helvetica neue', helvetica, arial, sans-serif;
+}
+
+
+
+/* 
+***********************
+ Salon Services
+***********************
+*/
+.price-list{margin-bottom: 1rem;}
+.price-list li:nth-child(odd) { background-color:#fafafa; }
+.price-list li:nth-child(even) { background-color:#fcfcfc; }
+.price{float: right;}
+
 /*.btn-primary {
     color: #fff;
     background-color: transparent;
@@ -96,33 +104,75 @@ strong, .strong{
   display: inline-block;
   background-color: #ccc;
 }*/
-label {
-    display: inline-block;
-    margin-bottom: 0;
-}
-.form-control{
-  margin-bottom:.5rem;
+
+
+
+/* 
+***********************
+ Header
+***********************
+*/
+
+.blog-masthead{
+  background-color: #ddd;
 }
 
-/* logo */
+#block-lsbstable-branding{
+  text-align: center;
+  border-bottom: 1px solid #e6e5e5;
+  padding-top: .5rem;
+}
+
 header img{
   box-shadow: none;
   border: none;
 }
 
-.blog-main, .blog-sidebar{
-  margin-bottom: 2rem;
+/* 
+***********************
+ Sidebar
+***********************
+*/
+
+.sidebar-module-inset {
+    padding: 1rem;
+    background-color: #ececec;
+    border-radius: .25rem;
 }
 
+.sidebar-module div{
+  margin-bottom: 1rem;
+}
+
+/* 
+***********************
+ Main Content
+***********************
+*/
+
+.blog-title{
+  display: none;
+  visibility: hidden;
+}
+
+/*.blog-main, .blog-sidebar{
+  margin-bottom: 2rem;
+}*/
 
 
+
+/* 
+***********************
+ Footer
+***********************
+*/
 
 nav#block-lsbstable-footer a{
   display: inline-block;
   width: 100%;
   padding:.25rem .5rem;
-
 }
+
 ul.weekly-hours{
     font-size: .75rem;
   /*font-family: 'helvetica neue', helvetica, arial, sans-serif;*/
@@ -138,16 +188,13 @@ ul.weekly-hours{
 /*ul.socialmedialinks li{
   display: inline-block;
 }*/
-iframe{
-  width: auto;
-  max-width: 100%;
-  margin:1rem 0;
-}
+
 .icon{
   height: 2rem;
   width: 2rem;
-  fill:#919191;
+  fill:#242424;
 }
+
 .icon a{
   display: inline-block;
   float: left;
@@ -155,6 +202,7 @@ iframe{
 
 .blog-footer {
   margin-top: 1rem;
+  background-color: #ececec;
 }
 
 .blog-footer ul{
@@ -177,18 +225,43 @@ iframe{
 .credits a{
   color: #bbb;
 }
-.price-list{
-  margin-bottom: 1rem;
-}
-.price-list li:nth-child(odd) { background-color:#fafafa; }
-.price-list li:nth-child(even) { background-color:#fcfcfc; }
 
-blockquote{
-  font-style: italic;
-  border-left: 5px solid #242424;
-  margin-left: 3rem;
-  padding-left: 1rem;
+/* 
+***********************
+ Helper Classes
+***********************
+*/
+.form-control{
+  margin-bottom:.5rem;
 }
+
+.card{
+  /*padding:.25rem .5rem;*/
+  margin-bottom: 0rem;
+}
+
+#edit-preview{
+  display: none;
+  visibility: hidden;
+}
+
+a.btn, .form-submit{
+  /*margin:1rem;*/
+  background-color: #7ca3b6;
+  border-color: #97c7de;
+  color: #fff;
+  text-shadow: 0 0 1px #111;
+}
+
+a.btn:hover, a.btn:focus, .form-submit:hover, .form-submit:focus{
+  background-color: #97c7de;
+  border-color: #fff;
+}
+/* 
+***********************
+ Media Queries
+***********************
+*/
 
 @media (min-width: 480px) {
   /*body{
