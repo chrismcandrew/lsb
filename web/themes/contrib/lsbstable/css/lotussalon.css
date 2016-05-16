@@ -8,7 +8,7 @@ body{
 
 
 p{
-  margin-top: 1rem;
+  margin: 1rem 0;
 }
 /*a, a:visited{
   color: #919191;
@@ -138,6 +138,11 @@ ul.weekly-hours{
 /*ul.socialmedialinks li{
   display: inline-block;
 }*/
+iframe{
+  width: auto;
+  max-width: 100%;
+  margin:1rem 0;
+}
 .icon{
   height: 2rem;
   width: 2rem;
@@ -164,16 +169,26 @@ ul.weekly-hours{
 .credits{
   font-size: .75rem;
   font-family: 'helvetica neue', helvetica, arial, sans-serif;
-  color: #e3e2e2;
+  color: #ddd;
   margin-top: 2rem;
+  text-shadow: 0 0 1px #111;
+  opacity: .3;
 }
 .credits a{
-  color: #666;
+  color: #bbb;
 }
-
+.price-list{
+  margin-bottom: 1rem;
+}
 .price-list li:nth-child(odd) { background-color:#fafafa; }
 .price-list li:nth-child(even) { background-color:#fcfcfc; }
 
+blockquote{
+  font-style: italic;
+  border-left: 5px solid #242424;
+  margin-left: 3rem;
+  padding-left: 1rem;
+}
 
 @media (min-width: 480px) {
   /*body{
@@ -192,7 +207,10 @@ ul.weekly-hours{
   }*/
 }
 @media (min-width: 768px) {
-
+  /* logo */
+header img{
+  width: 33%;
+}
   /*body{
     background-color: yellow;
   }*/
