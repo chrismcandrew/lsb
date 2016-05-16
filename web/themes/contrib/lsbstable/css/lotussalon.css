@@ -3,6 +3,9 @@ html, body{
   color: #333;
 }
 
+p{
+  margin-top: 1rem;
+}
 /*a, a:visited{
   color: #919191;
 }
@@ -158,6 +161,10 @@ margin:0 auto;*/
   font-size: .75rem;
   font-family: 'helvetica neue', helvetica, arial, sans-serif;
   color: #e3e2e2;
+  margin-top: 2rem;
+}
+.credits a{
+  color: #666;
 }
 
 .price-list li:nth-child(odd) { background-color:#fafafa; }

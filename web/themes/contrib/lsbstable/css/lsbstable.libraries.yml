@@ -2,7 +2,7 @@ global-styling:
   version: VERSION
   css:
     base:
-      css/reset.css: {}
+      #css/reset.css: {}
       css/bootstrap/bootstrap.min.css: {}
       css/bootstrap/blog.css: {}
       css/lotussalon.css: {}
