@@ -55,7 +55,7 @@ parameters:
     #
     # Not recommended in production environments
     # @default false
-    debug: true
+    debug: false
     # Twig auto-reload:
     #
     # Automatically recompile Twig templates whenever the source code changes.
@@ -64,7 +64,7 @@ parameters:
     #
     # Not recommended in production environments
     # @default null
-    auto_reload: true
+    auto_reload: null
     # Twig cache:
     #
     # By default, Twig templates will be compiled and stored in the filesystem
@@ -75,7 +75,7 @@ parameters:
     #
     # Not recommended in production environments
     # @default true
-    cache: false
+    cache: true
   renderer.config:
     # Renderer required cache contexts:
     #
@@ -102,7 +102,7 @@ parameters:
       # Disable by setting to -1.
       #
       # @default 0
-      max-age: -1
+      max-age: 0
       # Cache contexts with a high cardinality.
       #
       # Disable by setting to [].

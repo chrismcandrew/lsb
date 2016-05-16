@@ -22,7 +22,7 @@
  */
 #}
 {% for type, messages in message_list %}
-  <div role="contentinfo" aria-label="{{ status_headings[type] }}"{{ attributes|without('role', 'aria-label') }}>
+  <div class="alert" role="contentinfo" aria-label="{{ status_headings[type] }}"{{ attributes|without('role', 'aria-label') }}>
     {% if type == 'error' %}
       <div role="alert">
     {% endif %}
@@ -32,11 +32,11 @@
       {% if messages|length > 1 %}
         <ul>
           {% for message in messages %}
-            <li class="card">{{ message }}</li>
+            <li>{{ message }}</li>
           {% endfor %}
         </ul>
       {% else %}
-        <p class="card">{{ messages|first }}</p>
+        {{ messages|first }}
       {% endif %}
     {% if type == 'error' %}
       </div>

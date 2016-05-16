@@ -9,27 +9,30 @@
  * @see template_preprocess_maintenance_page()
  */
 #}
-<header role="banner">
+<header class="blog-masthead" role="banner">
+  <div class="container">
   {% if logo %}
     <a href="{{ front_page }}" title="{{ 'Home'|t }}" rel="home">
       <img src="{{ logo }}" alt="{{ 'Home'|t }}"/>
     </a>
   {% endif %}
 
-  {% if site_name or site_slogan %}
-    {% if site_name %}
-      <h1>
-        <a href="{{ front_page }}" title="{{ 'Home'|t }}" rel="home">{{ site_name }}</a>
-      </h1>
-    {% endif %}
-
-    {% if site_slogan %}
-      <div>{{ site_slogan }}</div>
-    {% endif %}
+  {% if site_logo %}
+    <a href="{{ path('<front>') }}" title="{{ 'Home'|t }}" rel="home">
+      <img src="{{ site_logo }}" alt="{{ 'Home'|t }}" />
+    </a>
   {% endif %}
+  {% if site_name %}
+    <h1><a class="blog-title" href="{{ path('<front>') }}" title="{{ 'Home'|t }}" rel="home">{{ site_name }}</a></h1>
+  {% endif %}
+  {% if site_slogan %}
+    {{ site_slogan }}
+  {% endif %}
+  </div>
 </header>
 
 <main role="main">
+  <div class="container">
   {% if title %}
     <h1>{{ title }}</h1>
   {% endif %}
@@ -37,6 +40,7 @@
   {{ page.highlighted }}
 
   {{ page.content }}
+  </div>
 </main>
 
 {% if page.sidebar_first %}
@@ -46,13 +50,58 @@
 {% endif %}
 
 {% if page.sidebar_second %}
-  <aside role="complementary">
-    {{ page.sidebar_second }}
-  </aside>
+  <aside class="col-sm-3 col-sm-offset-1 blog-sidebar" role="complementary">
+    <div class="sidebar-module sidebar-module-inset">
+      {{ page.sidebar_second }}
+    </div>
+  </aside><!-- /.blog-sidebar -->
 {% endif %}
 
-{% if page.footer %}
-  <footer role="contentinfo">
-    {{ page.footer }}
-  </footer>
-{% endif %}
+
+<footer class="blog-footer" role="contentinfo">
+  <div class="container">
+    <div>
+    <div id="block-lsbstable-sociallinks-2">
+    <div>
+      <ul class="socialmedialinks">
+      <li><a href="https://facebook.com/lotussalonbrielle"><svg class="icon icon-facebook2"><use xlink:href="/themes/contrib/lotussalon/js/symbol-defs.svg#icon-facebook2"></use></svg></a></li>
+      <li><a href="http://instagram.com/lotussalonbrielle"><svg class="icon icon-instagram"><use xlink:href="/themes/contrib/lotussalon/js/symbol-defs.svg#icon-instagram"></use></svg></a></li>
+      </ul>
+    </div>
+
+    </div>
+    
+    <div id="block-lsbstable-address">
+
+
+
+    <div><ul class="address">
+    <li>Lotus Salon Brielle</li>
+    <li>715 Riverview Drive</li> 
+    <li>Brielle, N.J.</li>
+    <li>08730</li>     
+    <li>Phone: (732) 722-8802</li>
+    <li>Fax: (732) 722-8804</li>
+    </ul></div>
+
+    </div>
+    <div id="block-backtotop">
+
+
+
+    <div><a href="#main-content" class="focusable">Back to top</a></div>
+
+    </div>
+    <div id="block-lsbstable-sitebycsmcreative">
+
+
+
+    <div><p class="credits" >Site by <a href="http://csmcreative.com">csmcreative</a></p></div>
+
+    </div>
+
+    </div>
+
+  </div>
+</footer>
+

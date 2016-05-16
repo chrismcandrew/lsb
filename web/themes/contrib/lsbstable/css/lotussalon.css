@@ -1,7 +1,11 @@
-html, body{
+html{
+  background-color: #f9f9f9;
+}
+body{
   background-color: #fff;
   color: #333;
 }
+
 
 p{
   margin-top: 1rem;
@@ -100,7 +104,8 @@ label {
   margin-bottom:.5rem;
 }
 
-#block-lsbstable-branding img{
+/* logo */
+header img{
   box-shadow: none;
   border: none;
 }
@@ -143,16 +148,15 @@ ul.weekly-hours{
   float: left;
 }
 
+.blog-footer {
+  margin-top: 1rem;
+}
+
 .blog-footer ul{
   text-align: center;
   display: inline-block;
-/*  overflow: hidden;
-margin:0 auto;*/
-
- /* font-size: .75rem;*/
-  /*font-family: 'helvetica neue', helvetica, arial, sans-serif;*/
- 
 }
+
 .blog-footer li{
   display: inline-block;
   
