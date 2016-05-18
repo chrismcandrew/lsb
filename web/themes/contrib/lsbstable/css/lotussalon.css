@@ -1,5 +1,5 @@
 html{
-  background-color: #f9f9f9;
+  background-color: #58595b;
 }
 
 body{
@@ -202,7 +202,8 @@ ul.weekly-hours{
 
 .blog-footer {
   margin-top: 1rem;
-  background-color: #ececec;
+  /*background-color: #ececec;*/
+  background-color: #58595b;
 }
 
 .blog-footer ul{
