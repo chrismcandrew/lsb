@@ -85,11 +85,11 @@ global-styling:
 #       css/components/messages.css: { preprocess: false }
 
 
-maintenance_page:
-  version: VERSION
-  css:
-    theme:
-      css/maintenance-page.css: {}
-  dependencies:
-    # - system/maintenance
-    - lotussalon/global-styling
+# maintenance_page:
+#   version: VERSION
+#   css:
+#     theme:
+#       css/maintenance-page.css: {}
+  # dependencies:
+  #   - system/maintenance
+  #   - lotussalon/global-styling

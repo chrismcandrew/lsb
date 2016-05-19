@@ -4,7 +4,8 @@ html{
 
 body{
   background-color: #f9f9f9;
-  color: #333;
+  color: #7c7e81;
+  text-shadow: 0 0 1px, rgba(1, 1, 1, 1.0);
 }
 
 blockquote{
@@ -115,6 +116,8 @@ a:hover, a:focus{
 
 .blog-masthead{
   background-color: #ddd;
+  text-align: center;
+  padding: 0.5rem 0;
 }
 
 #block-lsbstable-branding{
@@ -192,7 +195,7 @@ ul.weekly-hours{
 .icon{
   height: 2rem;
   width: 2rem;
-  fill:#242424;
+  fill:#fff;
 }
 
 .icon a{
@@ -202,6 +205,9 @@ ul.weekly-hours{
 
 .blog-footer {
   margin-top: 1rem;
+  color:#bec0c2;
+  font-family: 'helvetica neue', helvetica, arial, sans-serif;
+  font-size: .75rem;
   /*background-color: #ececec;*/
   background-color: #58595b;
 }
@@ -217,10 +223,10 @@ ul.weekly-hours{
 }
 .credits{
   font-size: .75rem;
-  font-family: 'helvetica neue', helvetica, arial, sans-serif;
+  /*font-family: 'helvetica neue', helvetica, arial, sans-serif;*/
   color: #ddd;
   margin-top: 2rem;
-  text-shadow: 0 0 1px #111;
+  /*text-shadow: 0 0 1px #111;*/
   opacity: .3;
 }
 .credits a{
@@ -282,27 +288,14 @@ a.btn:hover, a.btn:focus, .form-submit:hover, .form-submit:focus{
 }
 @media (min-width: 768px) {
   /* logo */
-header img{
-  width: 33%;
-}
-  /*body{
-    background-color: yellow;
-  }*/
-  /*#block-lsbstable-branding {
+  header img{
+    width: 33%;
+  }
+ /* .blog-footer {
     text-align: left;
-  }
-  #block-lsbstable-branding img{
-    width: 200%;
-  }
-  .nav{
-   position: relative;
-   text-align: right;
-   margin-top: -50px;
-  }
-  .nav a{
-    font-size: 1.25rem;
   }*/
 }
+
 @media (min-width: 992px) {
   /*body{
     background-color: green;
@@ -314,6 +307,25 @@ header img{
   }*/
 }
 
+/*
+***********************
+ Maintenance Page
+***********************
+*/
+body.maintenance-page{
+  text-align: center;
+}
+body.maintenance-page a#top{
+  display: none;
+  visibility: hidden;
+}
+
+
+/* 
+***********************
+ Print Styles
+***********************
+*/
 @media print {
   *,
   *::before,
