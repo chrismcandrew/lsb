@@ -54,4 +54,4 @@
  * @see https://www.drupal.org/documentation/install/multi-site
  */
 $sites['www.lotussalonbrielle.com'] = 'lotussalonbrielle.localhost';
-$sites['csmcreative.localhost'] = 'csmcreative.localhost';
+$sites['www.csmcreative.com'] = 'csmcreative.localhost';
