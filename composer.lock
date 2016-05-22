@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "02df6832594566d178a625bac064f860",
-    "content-hash": "9174877b4eee8ff7674628e50a9a09d1",
+    "hash": "bf49fbc2b6e0418100b30530b553635d",
+    "content-hash": "90cecbb87697e1c4799113468929f5e0",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -939,16 +939,16 @@
         },
         {
             "name": "drupal/core",
-            "version": "8.1.1",
+            "version": "8.2.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal-composer/drupal-core.git",
-                "reference": "e405a10c85a874a70932fe53670993f790df746f"
+                "reference": "fb38d9f54401b58910978c7ce9d573fc395ada50"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal-composer/drupal-core/zipball/e405a10c85a874a70932fe53670993f790df746f",
-                "reference": "e405a10c85a874a70932fe53670993f790df746f",
+                "url": "https://api.github.com/repos/drupal-composer/drupal-core/zipball/fb38d9f54401b58910978c7ce9d573fc395ada50",
+                "reference": "fb38d9f54401b58910978c7ce9d573fc395ada50",
                 "shasum": ""
             },
             "require": {
@@ -1009,6 +1009,7 @@
                 "drupal/core-discovery": "self.version",
                 "drupal/core-event-dispatcher": "self.version",
                 "drupal/core-file-cache": "self.version",
+                "drupal/core-filesystem": "self.version",
                 "drupal/core-gettext": "self.version",
                 "drupal/core-graph": "self.version",
                 "drupal/core-php-storage": "self.version",
@@ -1072,7 +1073,7 @@
                 "drupal/views_ui": "self.version"
             },
             "require-dev": {
-                "behat/mink": "~1.6",
+                "behat/mink": "~1.7",
                 "behat/mink-goutte-driver": "~1.2",
                 "jcalderonzumba/gastonjs": "~1.0.2",
                 "jcalderonzumba/mink-phantomjs-driver": "~0.3.1",
@@ -1102,7 +1103,7 @@
                 "GPL-2.0+"
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
-            "time": "2016-05-04 11:20:24"
+            "time": "2016-05-19 15:15:49"
         },
         {
             "name": "drupal/ctools",
