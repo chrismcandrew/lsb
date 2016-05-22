@@ -1,0 +1,4 @@
+body.maintenance-page a#top{
+	display: none;
+	visibility: hidden;
+}
