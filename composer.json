@@ -26,6 +26,7 @@
         "drupal/simple_sitemap": "8.*",
         "drupal/pathauto": "8.*",
         "drupal/token": "8.*",
+	"drupal/metatag": "8.*",
         "drupal/ctools": "8.*",
         "drupal/admin_toolbar": "8.*",
 	"drupal/mollom": "8.*",
