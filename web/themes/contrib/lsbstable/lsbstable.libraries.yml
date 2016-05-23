@@ -74,9 +74,9 @@ global-styling:
   
   dependencies:
     - core/jquery
-    # - core/jquery.once
-    # - core/drupal
-    # - core/drupalSettings
+    - core/jquery.once
+    - core/drupal
+    - core/drupalSettings
 
 # messages:
 #   version: VERSION
@@ -90,6 +90,6 @@ global-styling:
 #   css:
 #     theme:
 #       css/maintenance-page.css: {}
-  # dependencies:
-  #   - system/maintenance
-  #   - lotussalon/global-styling
+  dependencies:
+    - system/maintenance
+    - lotussalon/global-styling

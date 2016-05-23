@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "bf49fbc2b6e0418100b30530b553635d",
-    "content-hash": "90cecbb87697e1c4799113468929f5e0",
+    "hash": "4f29203d58115848a9d5ffed35eceadc",
+    "content-hash": "339d07814f56ad3f4aa65cf01eca3fae",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -939,16 +939,16 @@
         },
         {
             "name": "drupal/core",
-            "version": "8.2.x-dev",
+            "version": "8.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal-composer/drupal-core.git",
-                "reference": "fb38d9f54401b58910978c7ce9d573fc395ada50"
+                "reference": "e405a10c85a874a70932fe53670993f790df746f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal-composer/drupal-core/zipball/fb38d9f54401b58910978c7ce9d573fc395ada50",
-                "reference": "fb38d9f54401b58910978c7ce9d573fc395ada50",
+                "url": "https://api.github.com/repos/drupal-composer/drupal-core/zipball/e405a10c85a874a70932fe53670993f790df746f",
+                "reference": "e405a10c85a874a70932fe53670993f790df746f",
                 "shasum": ""
             },
             "require": {
@@ -1009,7 +1009,6 @@
                 "drupal/core-discovery": "self.version",
                 "drupal/core-event-dispatcher": "self.version",
                 "drupal/core-file-cache": "self.version",
-                "drupal/core-filesystem": "self.version",
                 "drupal/core-gettext": "self.version",
                 "drupal/core-graph": "self.version",
                 "drupal/core-php-storage": "self.version",
@@ -1073,7 +1072,7 @@
                 "drupal/views_ui": "self.version"
             },
             "require-dev": {
-                "behat/mink": "~1.7",
+                "behat/mink": "~1.6",
                 "behat/mink-goutte-driver": "~1.2",
                 "jcalderonzumba/gastonjs": "~1.0.2",
                 "jcalderonzumba/mink-phantomjs-driver": "~0.3.1",
@@ -1103,7 +1102,7 @@
                 "GPL-2.0+"
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
-            "time": "2016-05-19 15:15:49"
+            "time": "2016-05-04 11:20:24"
         },
         {
             "name": "drupal/ctools",
@@ -1189,6 +1188,31 @@
             "time": "2016-05-21 12:07:57"
         },
         {
+            "name": "drupal/git_deploy",
+            "version": "dev-8.x-2.x",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/git_deploy",
+                "reference": "e3b9663cc0a31080586b5dcb75b6fa005eb67463"
+            },
+            "require": {
+                "drupal/core": "8.*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-8.x-2.x": "8.2.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.drupal-composer.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "Helps sites that are deployed directly from a Git repositories.",
+            "homepage": "https://www.drupal.org/project/git_deploy",
+            "time": "2016-04-07 03:45:12"
+        },
+        {
             "name": "drupal/metatag",
             "version": "8.1.0-beta8",
             "source": {
@@ -1199,7 +1223,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/metatag-8.x-1.0-beta8.zip",
-                "reference": null,
+                "reference": "6a1b892f9b1f1a3b027dbddca81676e0d69a6ef3",
                 "shasum": null
             },
             "require": {
