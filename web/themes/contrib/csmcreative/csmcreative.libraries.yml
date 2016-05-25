@@ -3,7 +3,7 @@ global-styling:
   css:
     base:
       css/reset.css: {}
-      # css/bootstrap/bootstrap.min.css: {}
+      css/bootstrap/bootstrap.min.css: {}
       # css/bootstrap/blog.css: {}
     
     component:
@@ -67,10 +67,10 @@ global-styling:
       #css/overrides.css: {}
   js:
     js/ie10-viewport-bug-workaround.js: {}
-    js/ie-emulation-modes-warning.js: {}
-    js/tether.min.js: {}
-    js/bootstrap.min.js: {}
-    # js/lsb.js: {}
+    # js/ie-emulation-modes-warning.js: {}
+    # js/tether.min.js: {}
+    # js/bootstrap.min.js: {}
+    js/csm.js: {}
   
   dependencies:
     - core/jquery
@@ -78,11 +78,11 @@ global-styling:
     # - core/drupal
     # - core/drupalSettings
 
-# messages:
-#   version: VERSION
-#   css:
-#     component:
-#       css/components/messages.css: { preprocess: false }
+messages:
+  version: VERSION
+  css:
+    component:
+      css/components/messages.css: { preprocess: false }
 
 
 # maintenance_page:

@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "4f29203d58115848a9d5ffed35eceadc",
-    "content-hash": "339d07814f56ad3f4aa65cf01eca3fae",
+    "hash": "e58f24d647fc8fec912856c22c4131e7",
+    "content-hash": "b5f2dc6c4bc28889cbdfae5b436c012c",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -809,21 +809,20 @@
         },
         {
             "name": "drupal/admin_toolbar",
-            "version": "8.1.14",
+            "version": "8.1.15",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/admin_toolbar.git",
-                "reference": "bb7533adfce88bf783dcb23aea137ee9dbd80cdb"
+                "reference": "f8380381183bc76babaec9dfe392511011d54904"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/admin_toolbar-8.x-1.14.zip",
-                "reference": "bb7533adfce88bf783dcb23aea137ee9dbd80cdb",
+                "url": "https://ftp.drupal.org/files/projects/admin_toolbar-8.x-1.15.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
                 "drupal/core": "8.*",
-                "drupal/node": "8.*",
                 "drupal/toolbar": "8.*"
             },
             "replace": {
@@ -848,9 +847,9 @@
                     "homepage": "https://www.drupal.org/u/matio89"
                 }
             ],
-            "description": "Admin Toolbar improve the default Drupal Toolbar,it lets the hover of sub menus.",
+            "description": "Provides a drop-down menu interface to the core Drupal Toolbar.",
             "homepage": "http://drupal.org/project/admin_toolbar",
-            "time": "2016-02-08 14:39:48"
+            "time": "2016-05-23 11:35:45"
         },
         {
             "name": "drupal/console",
@@ -1150,7 +1149,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/devel",
-                "reference": "ae6d4158c8c350a079f9b2c92169354b68cb75ed"
+                "reference": "8dc277d763ec233fea889084922a9eb7202b518f"
             },
             "require": {
                 "drupal/core": "8.*"
@@ -1185,7 +1184,7 @@
             ],
             "description": "Various blocks, pages, and functions for developers.",
             "homepage": "http://drupal.org/project/devel",
-            "time": "2016-05-21 12:07:57"
+            "time": "2016-05-23 19:16:52"
         },
         {
             "name": "drupal/git_deploy",
@@ -1404,6 +1403,44 @@
             "description": "Provides a user interface for the Token API and some missing core tokens.",
             "homepage": "https://www.drupal.org/project/token",
             "time": "2016-01-21 08:02:24"
+        },
+        {
+            "name": "drupal/xmlsitemap",
+            "version": "8.1.0-alpha2",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/xmlsitemap",
+                "reference": "94b9d51597c2152d06357aba7a5eb5aa7498608d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/xmlsitemap-8.x-1.0-alpha2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "drupal/core": "8.*"
+            },
+            "replace": {
+                "drupal/xmlsitemap_custom": "self.version",
+                "drupal/xmlsitemap_engines": "self.version"
+            },
+            "suggest": {
+                "drupal/core": "Required by drupal/xmlsitemap_custom, drupal/xmlsitemap_engines"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-8.x-1.x": "8.1.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.drupal-composer.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "Creates an XML sitemap conforming to the <a href=\"http://sitemaps.org/\">sitemaps.org protocol</a>.",
+            "homepage": "https://www.drupal.org/project/xmlsitemap",
+            "time": "2016-05-25 15:36:17"
         },
         {
             "name": "drush/drush",

@@ -22,15 +22,25 @@
         "drupal/core": "8.*",
         "drush/drush": "8.*",
         "drupal/console": "~0.10",
-        "drupal/devel": "8.*",
-        "drupal/simple_sitemap": "8.*",
+	"drupal/simple_sitemap": "8.*",
         "drupal/pathauto": "8.*",
         "drupal/token": "8.*",
-	"drupal/metatag": "8.*",
+        "drupal/metatag": "8.*",
         "drupal/ctools": "8.*",
         "drupal/admin_toolbar": "8.*",
-	"drupal/mollom": "8.*",
-	"drupal/git_deploy": "8.*"
+        "drupal/mollom": "8.*",
+        "drupal/git_deploy": "8.*",
+	"drupal/devel": "8.*",
+	"drupal/xmlsitemap": "8.*"
+    },
+    "require-dev": {
+        "behat/mink": "~1.6",
+        "behat/mink-goutte-driver": "~1.2",
+        "jcalderonzumba/gastonjs": "^1.1@dev",
+        "jcalderonzumba/mink-phantomjs-driver": "~0.3.1",
+        "mikey179/vfsStream": "~1.2",
+        "phpunit/phpunit": "~4.8",
+        "symfony/css-selector": "2.7.*"
     },
     "conflict": {
         "drupal/drupal": "*"
@@ -63,3 +73,4 @@
         }
     }
 }
+
