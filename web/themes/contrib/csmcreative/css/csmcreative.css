@@ -121,6 +121,17 @@ a, a:visited{
 a:hover, a:focus{
   color: #97c7de;
 }
+
+#block-csmcreative-local-tasks ul {
+  overflow: hidden;
+  
+}
+
+#block-csmcreative-local-tasks li a{
+  display: inline-block;
+  float: left;
+  padding:1rem;
+}
 /*header{
   min-height: 50px;
 }*/

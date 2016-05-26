@@ -23,15 +23,14 @@
         "drush/drush": "8.*",
         "drupal/console": "~0.10",
 	"drupal/simple_sitemap": "8.*",
-        "drupal/pathauto": "8.*",
         "drupal/token": "8.*",
         "drupal/metatag": "8.*",
         "drupal/ctools": "8.*",
         "drupal/admin_toolbar": "8.*",
         "drupal/mollom": "8.*",
-        "drupal/git_deploy": "8.*",
-	"drupal/devel": "8.*",
-	"drupal/xmlsitemap": "8.*"
+	"drupal/xmlsitemap": "8.*",
+	"drupal/pathauto": "8.*",
+        "drupal/devel": "dev-8.x-1.x"
     },
     "require-dev": {
         "behat/mink": "~1.6",
@@ -73,4 +72,3 @@
         }
     }
 }
-
