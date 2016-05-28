@@ -345,6 +345,10 @@ a.btn:hover, a.btn:focus, .form-submit:hover, .form-submit:focus{
   background-color: #97c7de;
   border-color: #fff;
 }
+
+.text-red{
+  color: #ff0000;
+}
 /* 
 ***********************
  Media Queries
