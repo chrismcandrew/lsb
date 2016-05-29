@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "4b85b6cd5e2cfdbeedb265d171e6c82f",
-    "content-hash": "d9a108e05e71d5e6f92835cc3b07845b",
+    "hash": "fd10bc8b46057b9f0ee182cd4c6d2d4a",
+    "content-hash": "85932e3860ed6c61cd76f2b1005c733f",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1149,7 +1149,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/devel",
-                "reference": "8dc277d763ec233fea889084922a9eb7202b518f"
+                "reference": "0182817a1ae9b4e92f86ee29740a056659fbc9b5"
             },
             "require": {
                 "drupal/core": "8.*"
@@ -1184,7 +1184,7 @@
             ],
             "description": "Various blocks, pages, and functions for developers.",
             "homepage": "http://drupal.org/project/devel",
-            "time": "2016-05-23 19:16:52"
+            "time": "2016-05-26 15:55:04"
         },
         {
             "name": "drupal/metatag",
@@ -1319,16 +1319,16 @@
         },
         {
             "name": "drupal/simple_sitemap",
-            "version": "8.2.2",
+            "version": "8.2.3",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/simple_sitemap.git",
-                "reference": "b2e414ecea5af23c4433460f53d377ec39612982"
+                "reference": "4ce4b620c0707bcdaa78df4df35c747ebbc1ac8d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/simple_sitemap-8.x-2.2.zip",
-                "reference": "b2e414ecea5af23c4433460f53d377ec39612982",
+                "url": "https://ftp.drupal.org/files/projects/simple_sitemap-8.x-2.3.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -1346,7 +1346,7 @@
             ],
             "description": "Creates a standard conform XML sitemap of your content.",
             "homepage": "https://www.drupal.org/project/simple_sitemap",
-            "time": "2016-03-28 18:49:52"
+            "time": "2016-05-20 11:52:20"
         },
         {
             "name": "drupal/token",
@@ -1632,16 +1632,16 @@
         },
         {
             "name": "gabordemooij/redbean",
-            "version": "v4.3.1",
+            "version": "v4.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/gabordemooij/redbean.git",
-                "reference": "f1f572ddac226d047d730444927794321ee9aca6"
+                "reference": "72368f15cedfa7990c7fb228e47d2f00c7f49d4f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/gabordemooij/redbean/zipball/f1f572ddac226d047d730444927794321ee9aca6",
-                "reference": "f1f572ddac226d047d730444927794321ee9aca6",
+                "url": "https://api.github.com/repos/gabordemooij/redbean/zipball/72368f15cedfa7990c7fb228e47d2f00c7f49d4f",
+                "reference": "72368f15cedfa7990c7fb228e47d2f00c7f49d4f",
                 "shasum": ""
             },
             "require": {
@@ -1669,7 +1669,7 @@
             "keywords": [
                 "orm"
             ],
-            "time": "2015-12-28 19:46:34"
+            "time": "2016-05-01 10:27:43"
         },
         {
             "name": "guzzlehttp/guzzle",
