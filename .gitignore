@@ -4,7 +4,7 @@ drush/contrib
 vendor
 web/core
 web/modules/contrib
-# web/themes/contrib
+web/themes/contrib/*/config
 web/profiles/contrib
 web/sites/*/settings.php
 web/sites/sites.php

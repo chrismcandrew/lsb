@@ -55,6 +55,8 @@
   {{ page.breadcrumb }}
   {{ page.highlighted }}
   {{ page.help }}
+
+  
   
   <div class="row">
     <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
@@ -63,8 +65,8 @@
     </div>
 
     {% if page.sidebar_second %}
-    <aside class="col-sm-3 col-sm-offset-1 blog-sidebar" role="complementary">
-      <div class="sidebar-module">
+    <aside class="col-sm-3 col-sm-offset-1 blog-sidebar">
+      <div class="sidebar-module sidebar-module-inset">
         {{ page.sidebar_second }}
       </div>
     </aside><!-- /.blog-sidebar -->
@@ -74,7 +76,7 @@
 </div><!-- /.container -->
 
 
-<footer class="blog-footer" role="contentinfo">
+<footer class="blog-footer">
   <div class="container">
     {% if page.footer %}
       {{ page.footer }}

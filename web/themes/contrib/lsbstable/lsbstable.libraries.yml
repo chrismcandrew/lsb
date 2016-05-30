@@ -90,6 +90,6 @@ global-styling:
 #   css:
 #     theme:
 #       css/maintenance-page.css: {}
-  # dependencies:
-  #   - system/maintenance
-  #   - lotussalon/global-styling
+  dependencies:
+    - system/maintenance
+    - lotussalon/global-styling
