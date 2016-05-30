@@ -26,9 +26,9 @@
         "drupal/token": "8.*",
         "drupal/metatag": "8.*",
         "drupal/ctools": "8.*",
-        "drupal/admin_toolbar": "8.*",
+        "drupal/admin_toolbar": "8.1.*",
         "drupal/mollom": "8.*",
-	"drupal/xmlsitemap": "8.*",
+	"drupal/xmlsitemap": "8.2.*",
 	"drupal/pathauto": "8.*",
         "drupal/devel": "dev-8.x-1.x"
     },
