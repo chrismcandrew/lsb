@@ -7,7 +7,7 @@ web/modules/contrib
 # web/themes/contrib
 web/profiles/contrib
 web/sites/*/settings.php
-
+web/sites/sites.php
 # Ignore Drupal's file directory
 web/sites/*/files
 
