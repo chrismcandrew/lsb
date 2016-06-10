@@ -53,5 +53,11 @@
  * @see \Drupal\Core\DrupalKernel::getSitePath()
  * @see https://www.drupal.org/documentation/install/multi-site
  */
-$sites['lotussalonbrielle.localhost'] = 'lotussalonbrielle.com';
-$sites['csmcreative.localhost'] = 'csmcreative.com';
+$sites['www.lotussalonbrielle.com'] = 'lotussalonbrielle.localhost';
+$sites['www.csmcreative.com'] = 'csmcreative.localhost';
+
+  # $sites = array(
+  #   'csmcreative.localhost' => 'csmcreative.com',
+  #   'lotussalonbrielle.localhost' => 'lotussalonbrielle.com',
+  #   'library.csmcreative.localhost' => 'library.csmcreative.com',
+  # );

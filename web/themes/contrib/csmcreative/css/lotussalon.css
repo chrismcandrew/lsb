@@ -1,0 +1,511 @@
+html{
+  background-color: #58595b;
+}
+
+body{
+  background-color: #f9f9f9;
+  color: #7c7e81;
+  text-shadow: 0 0 1px, rgba(96, 96, 96, 1.0);
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+/*blockquote{
+  font-style: italic;
+  border-left: 5px solid #242424;
+  margin-left: 3rem;
+  padding-left: 1rem;
+}*/
+blockquote{
+  display:block;
+  background: #fff;
+  padding: 15px 20px 15px 45px;
+  margin: 0 0 20px;
+  position: relative;
+  border-radius: 5px;
+  font-style: italic;
+  font-weight: 500;
+  /*Font*/
+  /*font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 16px;*/
+  /*line-height: 1.2;
+  color: #666;*/
+  /*text-align: justify;*/
+  
+  /*Borders - (Optional)*/
+  /*border-left: 15px solid #c76c0c;
+  border-right: 2px solid #c76c0c;*/
+  
+  /*Box Shadow - (Optional)*/
+  -moz-box-shadow: 2px 2px 15px #ececec;
+  -webkit-box-shadow: 2px 2px 15px #ececec;
+  box-shadow: 2px 2px 15px #ececec;
+}
+
+blockquote::before{
+  content: "\201C"; /*Unicode for Left Double Quote*/
+  
+  /*Font*/
+  font:inherit;
+  font-size: 60px;
+  font-weight: 700;
+  color: #999;
+  
+  /*Positioning*/
+  position: absolute;
+  left: 5px;
+  top:0px;
+}
+
+blockquote::after{
+  /*Reset to make sure*/
+  content: "";
+}
+
+blockquote a{
+  text-decoration: none;
+  background: #eee;
+  cursor: pointer;
+  padding: 0 3px;
+  color: #c76c0c;
+}
+
+blockquote a:hover{
+ color: #666;
+}
+
+blockquote em{
+  font-style: italic;
+}
+
+p{
+  /*margin: 1rem 0;*/
+  text-shadow: 0 0 1px #ccc;
+
+}
+
+iframe{
+  width: auto;
+  max-width: 100%;
+  margin:1rem 0;
+}
+
+img{
+  border-radius: 4px;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+  box-shadow: 0 0 5px #ccc;
+  border: 5px solid #fff;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+strong, .strong{
+  font-weight: 500;
+}
+
+a, a:visited{
+  color: #7ca3b6;
+}
+
+a:hover, a:focus{
+  color: #97c7de;
+}
+/*header{
+  min-height: 50px;
+}*/
+
+
+/*.nav, #block-lsbstable-branding{
+   display: inline-block;  
+}*/
+
+/* 
+***********************
+ Primary Navigation
+***********************
+*/
+/*.nav.blog-nav{
+  margin:.25rem 0 0;
+}*/
+.nav a{
+  color: #fff;
+  text-shadow: 0px 0px 1px #ccc;
+  font-family: 'helvetica neue', helvetica, arial, sans-serif;
+}
+
+
+
+/* 
+***********************
+ Salon Services
+***********************
+*/
+.price-list{margin-bottom: 1rem;}
+.price-list li:nth-child(odd) { background-color:#fafafa; }
+.price-list li:nth-child(even) { background-color:#fcfcfc; }
+.price{float: right;}
+
+/*.btn-primary {
+    color: #fff;
+    background-color: transparent;
+    border-color: #919191;
+    border-width: 2px;
+}*/
+
+/*nav ul{
+  overflow: hidden;
+  line-height: inherit;
+  padding:0;
+  margin:0;
+}
+.nav a{
+  height: 50px;
+  line-height: 50px;
+  display: inline-block;
+  background-color: #ccc;
+}*/
+
+
+
+/* 
+***********************
+ Header
+***********************
+*/
+
+.blog-masthead{
+  background-color: #ddd;
+  text-align: center;
+  /*padding: 0.5rem 0;*/
+  color:#fff;
+}
+
+#block-lsbstable-branding{
+  text-align: center;
+  border-bottom: 1px solid #e6e5e5;
+  padding: 0.25rem 0 0.5rem;
+}
+
+header img{
+  box-shadow: none;
+  border: none;
+}
+
+/* 
+***********************
+ Sidebar
+***********************
+*/
+
+.sidebar-module-inset {
+    padding: 1rem;
+    background-color: #ececec;
+    border-radius: .25rem;
+}
+
+.sidebar-module div{
+  margin-bottom: 1rem;
+}
+
+/* 
+***********************
+ Main Content
+***********************
+*/
+
+.blog-title{
+  display: none;
+  visibility: hidden;
+}
+
+/*.blog-main, .blog-sidebar{
+  margin-bottom: 2rem;
+}*/
+
+
+
+/* 
+***********************
+ Footer
+***********************
+*/
+
+nav#block-lsbstable-footer a{
+  display: inline-block;
+  width: 100%;
+  padding:.25rem .5rem;
+}
+
+ul.weekly-hours{
+    font-size: .75rem;
+  /*font-family: 'helvetica neue', helvetica, arial, sans-serif;*/
+}
+/*ul.address li{
+  display: inline;
+  
+}*/
+/*ul.address li:after{
+  content: ' |';
+}*/
+
+/*ul.socialmedialinks li{
+  display: inline-block;
+}*/
+
+.icon{
+  height: 2rem;
+  width: 2rem;
+  fill:#fff;
+}
+
+.icon a{
+  display: inline-block;
+  float: left;
+}
+
+.blog-footer {
+  margin-top: 1rem;
+  color:#bec0c2;
+  font-family: 'helvetica neue', helvetica, arial, sans-serif;
+  font-size: .75rem;
+  /*background-color: #ececec;*/
+  background-color: #58595b;
+}
+
+.blog-footer ul{
+  text-align: center;
+  display: inline-block;
+}
+
+.blog-footer li{
+  display: inline-block;
+  
+}
+.credits{
+  font-size: .5rem;
+  margin-top: 2rem;
+  display: inline-block;
+}
+a#top{
+  margin: .25rem 0 1rem;
+  display: inline-block;
+}
+/*.credits a{
+  color: #bbb;
+}*/
+
+/* 
+***********************
+ Helper Classes
+***********************
+*/
+.form-control{
+  margin-bottom:.5rem;
+}
+
+.card{
+  /*padding:.25rem .5rem;*/
+  margin-bottom: 0rem;
+}
+
+#edit-preview{
+  display: none;
+  visibility: hidden;
+}
+
+a.btn, .form-submit{
+  /*margin:1rem;*/
+  background-color: #7ca3b6;
+  border-color: #97c7de;
+  color: #fff;
+  text-shadow: 0 0 1px #111;
+}
+
+a.btn:hover, a.btn:focus, .form-submit:hover, .form-submit:focus{
+  background-color: #97c7de;
+  border-color: #fff;
+}
+/* 
+***********************
+ Media Queries
+***********************
+*/
+
+@media (min-width: 480px) {
+  /*body{
+    background-color: pink;
+  }*/
+}
+
+@media (min-width: 544px) {
+  /*body{
+    background-color: red;
+  }*/
+}
+@media (min-width: 672px) {
+  /*body{
+    background-color: orange;
+  }*/
+}
+@media (min-width: 768px) {
+  /* logo */
+  header img{
+    width: 33%;
+  }
+ /* .blog-footer {
+    text-align: left;
+  }*/
+}
+
+@media (min-width: 992px) {
+  /*body{
+    background-color: green;
+  }*/
+}
+@media (min-width: 1200px) {
+  /*body{
+    background-color: blue;
+  }*/
+}
+
+/*
+***********************
+ Maintenance Page
+***********************
+*/
+body.maintenance-page{
+  text-align: center;
+}
+body.maintenance-page a#top{
+  display: none;
+  visibility: hidden;
+}
+
+
+/* 
+***********************
+ Print Styles
+***********************
+*/
+@media print {
+  *,
+  *::before,
+  *::after {
+    text-shadow: none !important;
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+    float: none !important;
+    color: #000 !important;
+    background: none !important;
+    font-size: 1rem !important;
+    background-color: none !important;
+    border-color: #000 !important;
+    margin:0 !important;
+    display: inline-block !important;
+  }
+
+/*  body,
+  input,
+  textarea,
+  select {
+    color: #000;
+    background: none;
+  }*/
+  a,
+  a:visited {
+    text-decoration: underline;
+    color: #000;
+  }
+  abbr[title]::after {
+    content: " (" attr(title) ")";
+  }
+  pre,
+  blockquote {
+    border: 1px solid #999;
+
+    page-break-inside: avoid;
+  }
+  thead {
+    display: table-header-group;
+  }
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+  img {
+    max-width: 100% !important;
+  }
+  ul{
+    /*margin-left: 2rem;*/
+    padding-left: 2rem;
+    /*margin-left: 2rem;*/
+  }
+  ul li{
+
+    display: list-item;
+    list-style-type: disc;
+  }
+  #block-lsbstable-branding{
+    border-bottom: none;
+  }
+ .blog-title{
+    display: inline-block;
+    visibility: visible;
+    font-size: 1rem;
+
+  }
+  .blog-post-title{
+    font-size: 1.5em;
+  }
+  .blog-footer{
+    border-top: none;
+    margin:0;
+  }
+  h1, .h1,
+  h2, .h2,
+  h3, .h3,
+  h4, .h4,
+  h5, .h5,
+  h6, .h6 {
+    font-weight: 700;
+  }
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+    font-size: 1.25rem;
+
+  }
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+  .nav.blog-nav, footer nav ul, ul.socialmedialinks {
+    display: none;
+    visibility: hidden;
+  }
+  .btn > .caret,
+  .dropup > .btn > .caret {
+    border-top-color: #000 !important;
+  }
+  .label {
+    border: 1px solid #000;
+  }
+  .table {
+    border-collapse: collapse !important;
+  }
+  .table td,
+  .table th {
+    background-color: #fff !important;
+  }
+  .table-bordered th,
+  .table-bordered td {
+    border: 1px solid #ddd !important;
+  }
+}
